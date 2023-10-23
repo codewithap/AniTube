@@ -1,0 +1,267 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+body, html, header{
+    height: 100%;
+}
+
+body{
+ background: #000; 
+ overflow: hidden;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+header nav .navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  height: 65px;
+  background: #0D0D0D;
+}
+
+header nav .navbar h1{
+ color: #fff;
+ font-size: 1.65rem;
+ font-family: none;
+ display: flex;
+ position: relative;
+ top: 10px;
+}
+
+header nav .navbar h1 span{
+  background: #DC0202;
+  padding: 0 4px;
+  border-radius: 15px;
+  margin: 0 2px;
+  font-family: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+}
+
+header nav .navbar button{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+header .body{
+  height: calc(100% - 120px);
+  background: #000;
+  overflow: auto;
+}
+
+header .navMenu{
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.navBtn{
+  background: none;
+  border: none;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #4b4b4b;
+}
+
+.navBtn span{
+  font-size: 15px;
+  position: relative;
+  font-weight: bolder;
+  bottom: 10px;
+}
+
+.navBtn:hover{
+  color: #DC0202;
+  transition: 150ms;
+}
+
+.active{
+  color: #B60000;
+}
+
+.slideShow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideShow .slider{
+  width: 100%;
+  margin: 0 auto 20px auto;
+  background: #101124;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .btn, .slider .a{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  transition: 500ms ease-out;
+}
+
+.slider .a{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 71, 0, 1);
+  transition: 400ms ease-in-out;
+}
+
+.slider .btn{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.slider img{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  z-index: 20;
+}
+
+.slider .title{
+  position: absolute;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #fff;
+  bottom: 15px;
+  padding: 0 10px;
+  width: 100%;
+  height: 40%;
+  text-align: left;
+   z-index: 6;
+   text-shadow: 1px 1px 0px #000, -1px -1px 0px #000;
+   display: block;
+   top: 60%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   align-items: center;
+}
+
+.watchBtn{
+  font-size: 1.2rem;
+  padding: 0 15px 5px 15px;
+  background: #FF3600;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: .5px .5px 0 #000;
+  transition: 150ms;
+}
+
+.watchBtn:hover{
+  background: #FF6300;
+}
+
+.watchBtn i{
+  font-size: 2rem;
+  position: relative;
+  top: 5px
+}
+
+.slider .bg{
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  
+  z-index: 1;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1%, rgba(0, 0, 0, 1) 95%);
+}
+
+.controler button{
+  padding: 5px 10px;
+}
+
+.ongoingAnime h3{
+  color: #F00B0B;
+  width: 90%;
+  margin: auto;
+}
+
+.slideShowBtn{
+  position: absolute;
+  z-index: 100;
+  background: none;
+  border: none;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: bold;
+  top: 40%;
+}
+
+.prev{
+  left: 20px;
+}
+
+.next{
+  right: 20px;
+}
+
+.animes{
+  color: #fff;
+  position: relative;
+  bottom: 15%;
+  z-index: 10;
+}
+
+.box h3{
+  margin: 5px 24px;
+}
+
+.animes .anime{
+  display: flex;
+  overflow: auto;
+  padding: 0 20px;
+  
+}
+
+.animes .anime .card{
+  margin: 5px;
+}
+
+.animes .anime .card img{
+  width: 150px;
+  height: 230px;
+}
+
+.animes .anime .card p{
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

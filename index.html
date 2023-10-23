@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <h1>Ani <span>Tube</span></h1>
+        <button class="nav-search-btn"><i class="bi bi-search"></i></button>
+      </div>
+    </nav>
+    <div class="body">
+      
+      <div class="slideShow">
+        <div class="slider"><button class="prev slideShowBtn" onclick="prev()"><i class="bi bi-arrow-left-circle"></i></button><button class="next slideShowBtn" onclick="next()"><i class="bi bi-arrow-right-circle"></i></button>
+        </div>
+    
+      </div>
+      <div class="animes">
+        <div class="box top">
+          <h3>TOP PICKS FOR YOU</h3>
+          <div class="anime">
+            
+          </div>
+        </div>
+        
+        <div class="box popular">
+          <h3>MOST POPULAR</h3>
+          <div class="anime">
+             
+          </div>
+        </div>
+        
+        <div class="box airing">
+          <h3>JUST UPLOADED</h3>
+          <div class="anime">
+        
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="navMenu">
+      <button class="navBtn active"><i class="bi bi-house-door-fill"></i><span>Home</span></button>
+      <button class="navBtn"><i class="bi bi-search"></i><span>Search</span></button>
+      <button class="navBtn"><i class="bi bi-list-stars"></i><span>My List</span></button>
+      <button class="navBtn"><i class="bi bi-gear-fill"></i><span>Settings</span></button>
+      <button class="navBtn"><i class="bi bi-info-circle-fill"></i><span>About Me</span></button>
+    </div>
+  </header>
+  
+  <script src="main.js"></script>
+  <script src="components.js"></script>
+</body>
+</html>
