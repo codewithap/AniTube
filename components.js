@@ -38,7 +38,7 @@ let prev = () => {
     counter = 9;
     slide()
   }
-}
+} 
 
 let next = () => {
   counter += 1;
