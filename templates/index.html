@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
   <header>
@@ -22,46 +22,58 @@
       </div>
     </nav>
     <div class="body">
-      
       <div class="slideShow">
         <div class="slider"><button class="prev slideShowBtn" onclick="prev()"><i class="bi bi-arrow-left-circle"></i></button><button class="next slideShowBtn" onclick="next()"><i class="bi bi-arrow-right-circle"></i></button>
         </div>
-    
+      
       </div>
       <div class="animes">
         <div class="box top">
           <h3>TOP PICKS FOR YOU</h3>
           <div class="anime">
-            
+      
           </div>
         </div>
-        
+      
         <div class="box popular">
           <h3>MOST POPULAR</h3>
           <div class="anime">
-             
+      
           </div>
         </div>
-        
-        <div class="box airing">
-          <h3>JUST UPLOADED</h3>
-          <div class="anime">
-        
-          </div>
-        </div>
-        
       </div>
-    </div>
+      <footer>
+        <hr>
+        <h1 align="center" style="color: #f1f1f1; text-decoration: underline">AniTube</h1>
+        <p>AniTube is a free site to watch anime online. All video files are collected from the internet from 3rd party websites.</p><br>
+        <h2>Follow Me</h2>
+        <div style="display: flex;justify-content: center;" class="socialLinks">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div><br>
+        <h2>Support/Donate</h2>
+        <div class="support" style="display: flex;justify-content: center;">
+          
+          <button onclick="copy('bc1qk66dnyc7tn7wxa25509my0fjavyz8vc826c83k')">copy Btc Address</button>
+          <button onclick="copy('0x8d7C12ED05321c3031b170AeF6F0AFdCe865C78D')">Copy ETH Address</button>
+          <button onclick="copy('0x8d7C12ED05321c3031b170AeF6F0AFdCe865C78D')">Copy USDT Address</button>
+          <button onclick="copy('9434671110@fam')">Copy UPI Id</button>
+        </div>
+        <br>
+        <hr>
+      </footer>
+      </div><hr class="hr">
     <div class="navMenu">
       <button class="navBtn active"><i class="bi bi-house-door-fill"></i><span>Home</span></button>
-      <button class="navBtn"><i class="bi bi-search"></i><span>Search</span></button>
+      <button class="navBtn"><i class="bi bi-search" onclick="searchOption()"></i><span>Search</span></button>
       <button class="navBtn"><i class="bi bi-list-stars"></i><span>My List</span></button>
       <button class="navBtn"><i class="bi bi-gear-fill"></i><span>Settings</span></button>
       <button class="navBtn"><i class="bi bi-info-circle-fill"></i><span>About Me</span></button>
     </div>
   </header>
-  
-  <script src="static/main.js"></script>
-  <script src="static/components.js"></script>
+  <script src="..../static/nav.js"></script>
+  <script src="../static/main.js"></script>
+  <script src="../static/components.js"></script>
 </body>
 </html>

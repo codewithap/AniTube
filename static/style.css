@@ -265,3 +265,59 @@ header .navMenu{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+hr{
+  border: 1px solid #333;
+}
+
+footer{
+  position: relative;
+  bottom: 40px;
+}
+
+.socialLinks{
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.socialLinks a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 0 10px;
+  
+}
+
+.socialLinks a i, .support a{
+  font-size: 2.5rem;
+  position: relative;
+  top: 4px;
+}
+
+.socialLinks a:nth-child(3), .support a{
+  color: #FF0000;
+}
+
+.socialLinks a:nth-child(2){
+  color: #fff;
+}
+
+.socialLinks a:nth-child(1) {
+  color: #FFF;
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+  padding: 5px;
+}
+
+footer p{
+  color: #C1C1C1;
+  padding: 0 20px;
+}
+
+footer h2{
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}

@@ -46,3 +46,11 @@ let next = () => {
 }
 setInterval(next, 8000);
 /////////////////////////
+
+let body = document.querySelector('body');
+  /////////////////
+ //    Search   //
+/////////////////
+let searchOption=()=>{
+  
+}

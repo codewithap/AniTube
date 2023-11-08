@@ -54,3 +54,10 @@ fetch('https://api.jikan.moe/v4/top/anime?filter=bypopularity&limit=25')
     }).catch(error => {
       console.error(error)
     });
+    
+ // copyText
+ 
+ function copy(copyText) {
+   navigator.clipboard.writeText(copyText);
+   alert("Copied - " + copyText);
+ }
